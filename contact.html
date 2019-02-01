@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta content= name="keywords">
+    <meta content= name="description">
+    <meta content= name="author">
+
+    <title></title>
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<main>
+    <header class="header flex-center">
+        <h1>COMPANY NAME</h1>
+    </header>
+
+    <nav class="navigation-bar flex-center">
+        <section>
+            <a href="./index.html">home</a>
+            <a href="https://www.blogger.com">blog</a>
+            <a href="./contact.html">contact</a>
+        </section>
+    </nav>
+
+    <section>
+        <figure class="section-header flex-center">
+            <h2>Contact</h2>
+        </figure>
+    </section>
+
+
+
+    
+    <section class="contactSection">
+        
+        <h2 class="moreInformationHeader">
+            More information
+        </h2>
+
+        
+        <form action="nowhere.php" method="post">
+            <fieldset class="contactFormFieldset">
+                <label>Select topic</label>
+                
+                <section class="customSelect">
+                    <select class="generalInquiriesSelector">
+                        <option value="general">General inquiries</option>
+                        <option value="press">Press relations</option>
+                        <option value="recruitement">Recruitement</option>
+                    </select>
+                </section>
+            </fieldset>
+            
+            <fieldset class="contactFormFieldset">
+                <input
+                        type="text"
+                        name="contactFormName"
+                        placeholder="Your name.."
+                />
+            </fieldset>
+            
+            <fieldset class="contactFormFieldset">
+                <input
+                        type="email"
+                        name="email"
+                        placeholder="Your email.."
+                />
+            </fieldset>
+           
+            <fieldset class="contactFormFieldset">
+                <textarea
+                        rows="7"
+                        cols="40"
+                        name="message"
+                        placeholder="Write something.."
+                ></textarea>
+            </fieldset>
+            
+            <input class="contactFormButton"
+                   type="submit"
+                   value="Submit"
+            />
+        </form>
+    </section>
+
+<footer class="flex-center">
+    <p>&copy; 2019 - Stephan Willersen - Inholland</p>
+</footer>
+
+</main>
+
+</body>
+
+</html>
